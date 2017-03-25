@@ -33,7 +33,7 @@
     UIButton *button = fromVC.button;
     
     
-    UIBezierPath *maskStartBP =  [UIBezierPath bezierPathWithOvalInRect:button.frame];    
+    UIBezierPath *maskStartBP =  [UIBezierPath bezierPathWithOvalInRect:button.frame];
     [contView addSubview:fromVC.view];
     [contView addSubview:toVC.view];
 
